@@ -1,1 +1,3 @@
 2017-06-05 22:34:15,186 WARN c.t.k.App [main] !!!
+2017-06-07 21:34:49,241 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-07 21:34:49,243 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.

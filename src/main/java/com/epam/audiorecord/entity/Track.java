@@ -3,14 +3,14 @@ package com.epam.audiorecord.entity;
 public class Track extends File {
     private String author;
     private String title;
-    private String style;
+    private Style style;
     private Format format;
     private int duration;
 
     public Track() {
     }
 
-    public Track(String name, int size, String author, String title, String style, Format format, int duration) {
+    public Track(String name, int size, String author, String title, Style style, Format format, int duration) {
         super(name, size);
         this.author = author;
         this.title = title;
@@ -35,11 +35,11 @@ public class Track extends File {
         this.title = title;
     }
 
-    public String getStyle() {
+    public Style getStyle() {
         return style;
     }
 
-    public void setStyle(String style) {
+    public void setStyle(Style style) {
         this.style = style;
     }
 
@@ -59,4 +59,27 @@ public class Track extends File {
         this.duration = duration;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Track track = (Track) o;
+
+        if (duration != track.duration) return false;
+        if (author != null ? !author.equals(track.author) : track.author != null) return false;
+        if (title != null ? !title.equals(track.title) : track.title != null) return false;
+        if (style != track.style) return false;
+        return format == track.format;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = author != null ? author.hashCode() : 0;
+        result = 31 * result + (title != null ? title.hashCode() : 0);
+        result = 31 * result + (style != null ? style.hashCode() : 0);
+        result = 31 * result + (format != null ? format.hashCode() : 0);
+        result = 31 * result + duration;
+        return result;
+    }
 }

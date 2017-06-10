@@ -11,10 +11,10 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-public class FileReader {
-    public static Logger logger = LogManager.getLogger(FileReader.class);
+public class MusicTrackReader {
+    public static Logger logger = LogManager.getLogger(MusicTrackReader.class);
 
-    public ArrayList<String> readDataFromFile(String path) throws InvalidInitializationException {
+    public static ArrayList<String> readTracksFromFile(String path) throws InvalidInitializationException {
         ArrayList<String> result = new ArrayList<>();
         try {
             Files.lines(Paths.get(path), StandardCharsets.UTF_8).forEach(result::add);
