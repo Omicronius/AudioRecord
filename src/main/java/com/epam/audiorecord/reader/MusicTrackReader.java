@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class MusicTrackReader {
     public static Logger logger = LogManager.getLogger(MusicTrackReader.class);
 
-    public static ArrayList<String> readTracksFromFile(String path) throws InvalidInitializationException {
+    public ArrayList<String> readTracksFromFile(String path) throws InvalidInitializationException {
         ArrayList<String> result = new ArrayList<>();
         try {
             Files.lines(Paths.get(path), StandardCharsets.UTF_8).forEach(result::add);

@@ -10,13 +10,13 @@ public class TrackCreator {
 
     public Track createTrack(String trackData) {
         String[] data = trackData.split(dataDelimiter);
-        String name = data[0];
-        int size = Integer.parseInt(data[1]);
-        String author = data[2];
-        String title = data[3];
-        Style style = Style.valueOf(data[4].toUpperCase());
-        Format format = Format.valueOf(name.split(extensionDelimiter)[1].toUpperCase());
-        int duration = Integer.parseInt(data[5]);
+        String name = data[0].trim();
+        int size = Integer.parseInt(data[1].trim());
+        String author = data[2].trim();
+        String title = data[3].trim();
+        Style style = Style.stringToEnum(data[4].toUpperCase());
+        Format format = Format.stringToEnum(name.split(extensionDelimiter)[1].trim().toUpperCase());
+        int duration = Integer.parseInt(data[5].trim());
         return new Track(name, size, author, title, style, format, duration);
     }
 }

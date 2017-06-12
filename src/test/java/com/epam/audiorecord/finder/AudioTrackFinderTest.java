@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -47,4 +48,8 @@ public class AudioTrackFinderTest {
         Assert.assertTrue(finder.findTracksByTitle("abracadabra", tracks).isEmpty());
     }
 
+    @Test
+    public void findTracksByDuration() throws Exception {
+        Assert.assertTrue(finder.findTracksByDuration(300, 400, tracks).get(0).getDuration() == 317);
+    }
 }

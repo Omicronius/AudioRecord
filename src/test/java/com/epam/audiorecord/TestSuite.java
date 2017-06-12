@@ -19,7 +19,8 @@ import org.junit.runners.Suite;
         AudioTrackSorterTest.class,
         MusicTrackValidatorTest.class,
         CollectionDurationCalculatorTest.class,
-        AudioCollectionWriterTest.class
+        AudioCollectionWriterTest.class,
+        FunctionalTest.class
 })
 public class TestSuite {
 }

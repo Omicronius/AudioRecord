@@ -1,9 +1,9 @@
 track.mp3	218	Gustavo Santaolalla	The last of us	Pop	298
-track.wav   670 	Ennio morricone 	Chi mai 	Classic 	213 qwertyuiopasdfghjklzxcvbnm
+track.wav	670	Ennio morricone 	Chi mai	Classic	213	Redundant information
 track.track		wrong data	!!!		745
-human.mp3	313	human	Rag'n'bone man	Rock	247
-four season.mp3 408 Antonio Vivaldi The Four Seasons    Classic 272
-requiem.flac    219 Mozart  Requiem Classic 371
-smells.mp3  474 Nirvana Smells like teen spirit Rock    191
-fake.fake  378 Fake Format Rock    191
-unknown.mp3  317 Unknown Style Rocky    185
+human.mp3	313	Human	Rag'n'bone man	Rock	247
+four season.mp3	408	Antonio Vivaldi	The Four Seasons	Classic	272
+requiem.flac	219	Mozart	Requiem	Classic	371
+smells.mp3	474	Nirvana	Smells like teen spirit	Rock	191
+fake.fake	378	Fake	Format	Rock	191
+unknown.mp3	317	Unknown	Style	Rocky	185

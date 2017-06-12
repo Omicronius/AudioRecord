@@ -15,4 +15,9 @@ public class AudioTrackFinder {
         return tracks.stream().filter(o -> o.getTitle().toLowerCase().contains(keyword.toLowerCase()))
                 .collect(Collectors.toList());
     }
+
+    public List<Track> findTracksByDuration(int from, int to, List<Track> tracks) {
+        return tracks.stream().filter(o -> o.getDuration() > from && o.getDuration() < to)
+                .collect(Collectors.toList());
+    }
 }
