@@ -1,5 +1,7 @@
 package com.epam.audiorecord.entity;
 
+import java.util.List;
+
 public interface Readable {
-    File Read();
+    List<File> readFiles();
 }

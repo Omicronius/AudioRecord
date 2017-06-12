@@ -1,13 +1,9 @@
 package com.epam.audiorecord.entity;
 
-public class Disk implements Writable, Readable {
+public class Disk extends Storage {
+    private static final int DATA_CAPABILITY = 8000;
 
-    @Override
-    public void write(File file) {
-    }
-
-    @Override
-    public File Read() {
-        throw new UnsupportedOperationException();
+    public Disk() {
+        super(DATA_CAPABILITY);
     }
 }

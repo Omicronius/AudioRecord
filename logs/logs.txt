@@ -1,3 +1,39 @@
 2017-06-05 22:34:15,186 WARN c.t.k.App [main] !!!
 2017-06-07 21:34:49,241 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
 2017-06-07 21:34:49,243 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 15:43:41,028 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 15:43:41,034 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 17:11:39,759 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 17:11:39,762 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 18:56:02,440 WARN c.e.a.w.AudioCollectionWriter [main] Not enough space on the storage.
+2017-06-11 19:00:29,210 WARN c.e.a.w.AudioCollectionWriter [main] Not enough space on the storage.
+2017-06-11 19:02:28,668 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 19:02:28,674 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 19:04:15,960 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 19:04:15,965 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 19:07:02,075 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 19:07:02,080 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:35:41,820 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:35:41,825 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:38:04,067 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:38:04,074 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:39:03,565 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:39:05,487 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:40:02,100 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:40:10,873 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:40:27,411 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:41:26,994 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:41:40,475 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:41:40,481 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:41:43,108 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:41:43,116 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:41:52,817 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:41:56,912 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:42:38,782 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:42:38,789 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:43:18,236 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:44:00,500 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:50:49,351 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:50:49,365 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:50:55,137 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
+2017-06-11 20:50:55,143 WARN c.e.a.v.MusicTrackValidator [main] Some string contains invalid data. It has been skipped.
