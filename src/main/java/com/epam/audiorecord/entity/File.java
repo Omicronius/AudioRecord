@@ -3,9 +3,9 @@ package com.epam.audiorecord.entity;
 import java.util.UUID;
 
 public class File {
-    UUID id;
-    String name;
-    int size;
+    private UUID id;
+    private String name;
+    private int size;
 
     public File() {
         this.id = UUID.randomUUID();
@@ -53,5 +53,14 @@ public class File {
         int result = name != null ? name.hashCode() : 0;
         result = 31 * result + size;
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "File{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", size=" + size +
+                '}';
     }
 }

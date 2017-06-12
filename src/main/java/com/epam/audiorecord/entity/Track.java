@@ -82,4 +82,15 @@ public class Track extends File {
         result = 31 * result + duration;
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Track{" +
+                "author='" + author + '\'' +
+                ", title='" + title + '\'' +
+                ", style=" + style +
+                ", format=" + format +
+                ", duration=" + duration +
+                '}';
+    }
 }
